@@ -1,0 +1,111 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+/* Cabeçalho */
+
+header{ /*cabecalho*/
+
+    background-color:rgb(235, 147, 195);  /*cor de fundo do cabeçalho*/
+    color: rgb(64, 3, 37); /*cor da letra*/
+    padding: 15px; /*distancia entre o elemento e as bordas*/
+    text-align: center; /*alinhamento do texto*/
+    border-bottom: 3px solid rgb(64, 3, 37); /*cor da borda inferior*/
+}
+
+/*main da galeria de fotos*/
+
+.container{ /*tudo que vai entre o rodape e o cabeçalho*/
+
+    background-color: rgb(254, 222, 247);
+    min-height: 30vh; /*determina a altura da área do conteúdo de um elemento.*/
+    padding: 50px; /*distancia entre o elemento e as bordas*/
+
+}
+
+/* Coelhos */
+
+.card{ /*tamanho de cada espaço que vão as fotos e textos*/
+
+    width: 31% ; /*largura*/
+    display: inline-block; /*podemos organizar os elementos lado a lado e definirmos as propriedades de largura e altura*/
+    margin: 1%; /*tamanho da margem*/
+    padding: 15px; /*distancia entre o elemento e as bordas*/
+
+}
+
+/*trabalhando com as imagens*/
+
+.product-image{
+    
+    height: 300px; /*altura*/
+    width: 100%; /*largura*/
+    margin-bottom: 10px; /*margem de baixo*/
+    background-position: center; /*posição da imagem*/
+    background-size: cover; /*vai mostrar a imagem inteira*/
+
+}
+
+#card1{
+    background-image: url(../img/coelho1.jfif);
+}
+
+#card2{
+    background-image: url(../img/coelho2.jpg);
+}
+
+#card3{
+    background-image: url(../img/coelho3.jpg);
+}
+
+#card4{
+    background-image: url(../img/coelho4.jpg);
+}
+
+#card5{
+    background-image: url(../img/coelho5.jpg);
+}
+
+#card6{
+    background-image: url(../img/coelho6.jpg);
+}
+
+h3{
+    margin-bottom: 10px; /*espaço da margem de baixo*/
+    color: rgb(64, 3, 37); /*cor da letra*/
+    border-left: 5px solid rgb(64, 3, 37); /*cor da borda lado esquerdo da letra*/
+    padding-left: 7px; /*espaçamento do lado esquerdo do texto*/
+    font-size: 24px; /*tamanho da fonte*/
+}
+
+.card{
+    margin-bottom: 10px; /*espaço da margem de baixo*/
+}
+
+.btn{
+    display: block; /*define que o elemento deve ser tratado como um bloco*/
+    width: 100%; /*largura*/
+    text-align: center; /*alinhamento do texto*/
+    text-decoration: none; /*decoração do texto*/
+    text-transform: uppercase; /*deixa o texto com todas as letras em maiusculo*/
+    background-color: rgb(235, 147, 195); /*cor do botao*/
+    color: #fff; /*cor da letra do botao*/
+    padding: 15px; /*distancia entre o elemento e as bordas*/
+    border-radius: 5px; /*deixa a borda arredondada*/
+    transition: 5s; /*muda a cor do botão ao passar o mouse*/
+}
+
+.btn:hover{
+    background-color: rgb(64, 3, 37); /*o botão ficara desta cor ao passar o mouse*/
+}
+
+/*rodapé*/
+
+footer{
+
+    background-color: rgb(235, 147, 195); /*cor de fundo do rodape*/
+    color: rgb(64, 3, 37); /*cor do texto*/
+    border-top: 3px solid; /*cor da borda superior*/
+    padding: 60px; /*distancia entre o elemento e as bordas*/
+
+}
+
+
