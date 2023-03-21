@@ -4,7 +4,7 @@
 
 header{ /*cabecalho*/
 
-    background-color:rgb(235, 147, 195);  /*cor de fundo do cabeçalho*/
+    background-color:rgb(252, 255, 233);  /*cor de fundo do cabeçalho*/
     color: rgb(64, 3, 37); /*cor da letra*/
     padding: 15px; /*distancia entre o elemento e as bordas*/
     text-align: center; /*alinhamento do texto*/
@@ -15,7 +15,8 @@ header{ /*cabecalho*/
 
 .container{ /*tudo que vai entre o rodape e o cabeçalho*/
 
-    background-color: rgb(254, 222, 247);
+    background-color: rgb(37, 29, 29);
+    background-image: url(../img/fundo-granulado.jfif); /*fundo do conteiner*/
     min-height: 30vh; /*determina a altura da área do conteúdo de um elemento.*/
     padding: 50px; /*distancia entre o elemento e as bordas*/
 
@@ -46,26 +47,32 @@ header{ /*cabecalho*/
 
 #card1{
     background-image: url(../img/coelho1.jfif);
+    border-radius: 35px;
 }
 
 #card2{
     background-image: url(../img/coelho2.jpg);
+    border-radius: 35px;
 }
 
 #card3{
     background-image: url(../img/coelho3.jpg);
+    border-radius: 35px;
 }
 
 #card4{
     background-image: url(../img/coelho4.jpg);
+    border-radius: 35px;
 }
 
 #card5{
     background-image: url(../img/coelho5.jpg);
+    border-radius: 35px;
 }
 
 #card6{
     background-image: url(../img/coelho6.jpg);
+    border-radius: 35px;
 }
 
 h3{
@@ -86,25 +93,26 @@ h3{
     text-align: center; /*alinhamento do texto*/
     text-decoration: none; /*decoração do texto*/
     text-transform: uppercase; /*deixa o texto com todas as letras em maiusculo*/
-    background-color: rgb(235, 147, 195); /*cor do botao*/
+    background-color: rgb(37, 29, 29); /*cor do botao*/
     color: #fff; /*cor da letra do botao*/
     padding: 15px; /*distancia entre o elemento e as bordas*/
     border-radius: 5px; /*deixa a borda arredondada*/
-    transition: 5s; /*muda a cor do botão ao passar o mouse*/
+    transition: 3s; /*muda a cor do botão ao passar o mouse*/
 }
 
 .btn:hover{
-    background-color: rgb(64, 3, 37); /*o botão ficara desta cor ao passar o mouse*/
+    background-color: rgb(72, 72, 70); /*o botão ficara desta cor ao passar o mouse*/
 }
 
 /*rodapé*/
 
 footer{
 
-    background-color: rgb(235, 147, 195); /*cor de fundo do rodape*/
-    color: rgb(64, 3, 37); /*cor do texto*/
+    background-color: rgb(37, 29, 29); /*cor de fundo do rodape*/
+    color: #fff; /*cor do texto*/
     border-top: 3px solid; /*cor da borda superior*/
     padding: 60px; /*distancia entre o elemento e as bordas*/
+    text-align: center; /*alinhamento do texto*/
 
 }
 
